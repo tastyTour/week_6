@@ -9,8 +9,6 @@ public class Question13 {
                 {7, 8, 9}
         };
 
-
-
         for (int i = 0; i < arr.length; i++) {
             int sum = arr[i][0] + arr[i][1] + arr[i][2];
             System.out.println("행 " + i + "의 합: " + sum);
